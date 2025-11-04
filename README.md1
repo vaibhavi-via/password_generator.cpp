@@ -1,0 +1,24 @@
+# Password Generator
+
+A secure C++ password generator that creates strong passwords with:
+- Lowercase and uppercase letters
+- Numbers
+- Special characters
+- Minimum length of 8 characters
+
+## Features
+- Modern C++ random number generation
+- Input validation
+- Password complexity verification
+- Exception handling
+
+## Build and Run
+```bash
+g++ password_generator.cpp -o password_generator.exe
+./password_generator.exe
+```
+
+## Usage
+1. Run the program
+2. Enter desired password length (minimum 8)
+3. Get your generated password
